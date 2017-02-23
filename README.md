@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: We look for two squares in the same unit that both have the same two possible digits. In Sudoku this imposes a constraint on the peers of these squares. So we remove these values from the peers of both squares.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: We use our three constraints on our units: elimination, only choice and naked twins. By adding diagonal units to our original unit list, we satisfy constraint propagation to these diagonals.
 
 ### Install
 
